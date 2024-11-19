@@ -6,11 +6,7 @@ const apiKey = import.meta.env.VITE_YOUTUBE_API_KEY;
 function YoutubeVideos() {
   const [appleyoutubevideos, setappleyoutubevideos] = useState([]);
   useEffect(() => {
-    // fetch(
-    
-    // "https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=8&order=date&key=AIzaSyDovTAZ4aTdm8xs0KPQnyPKD4QsLCC1MXY"
-    // )
-
+   
     fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=8&order=date&key=${apiKey}`)
     
       .then((res) => res.json())
