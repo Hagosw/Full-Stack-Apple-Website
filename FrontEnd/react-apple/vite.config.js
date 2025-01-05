@@ -7,5 +7,7 @@ export default defineConfig({
   // server: { port: 1057 },
   build: {  
     sourcemap: true, 
+    base: "/apple-clone",
   }
+  
 });
