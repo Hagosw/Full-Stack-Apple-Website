@@ -1,10 +1,14 @@
+# //Add a GitHub workflow
+# Create a deploy.yml file inside the .github/workflows directory.
+# Copy and paste this workflow:
+
+
 name: Deploy
 
 on:
   push:
     branches:
       - main
-
 jobs:
   build:
     name: Build
@@ -47,3 +51,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+
