@@ -1,5 +1,6 @@
 {
-  "name": "react-apple",
+  "homepage": "Full-Stack-Apple-Website",
+  "name": "full-stack-apple-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",

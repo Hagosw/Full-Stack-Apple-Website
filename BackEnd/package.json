@@ -1,6 +1,6 @@
 {
-  "name": "react-apple",
-  "homepage": "apple-clone",
+  "homepage": "Full-Stack-Apple-Website",
+  "name": "full-stack-apple-website",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
