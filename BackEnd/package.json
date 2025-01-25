@@ -1,20 +1,10 @@
 {
-  "homepage": "Full-Stack-Apple-Website",
-  "name": "full-stack-apple-website",
+  "name": "mysqlpractice",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "dev": "vite",
-    "start": "npm run dev",
-    "build": "npm run build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-
-  
   "author": "",
   "license": "ISC",
   "description": "",
